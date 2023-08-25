@@ -1,0 +1,154 @@
+Sale api endpoint : https://api.siegelauctions.com/BackOffice/SalePublicDetail/Search?SaleNumber=<####>
+Sale response:
+{
+  "message": "",
+  "data": {
+    "SalePublicDetail": {
+      "SaleID": 1339,
+->      "SaleNumber": "1285",
+->      "SaleName": "The World Traveler Collection of United States Stamps",
+->      "SaleDescription": "The World Traveler Collection of United States Stamps",
+->      "SaleStartDate": "2023-05-04T14:30:00.000+00:00",
+->      "SaleEndDate": "2023-05-04T17:30:00.000+00:00",
+      "OnWeb": true,
+      "SaleAbbreviatedName": null,
+      "Introduction": null,
+      "VideoLink": null,
+      "Logo": 1,
+      "Featuring": null,
+      "Announcement": null,
+      "TermConditionID": 11,
+      "OnHomePage": false,
+      "CurrentSessionDate": null,
+      "CurrentSessionNumber": null,
+      "CurrentSessionStatus": null,
+      "InternationalOnly": false,
+      "HasIntroduction": false,
+      "HasVideoLink": false,
+      "PricesRealized": null,
+      "ShowImageOnTOC": false,
+      "ResultUrl": "result/1285pr.pdf",
+      "CatalogPDF": null,
+      "GradingIndex": 1,
+->      "ImageURL": "cover/1285cvr.jpg",
+      "IsInternational": null,
+->      "SaleStatusType": "SETTLEMENT",
+      "UpcomingPast": 2,
+->      "PageNumberMAx": 19,
+->    "SaleCatalogFileUrl": "old/2023/1285/1285.pdf",
+      "HasRegistered": 0,
+      "ApprovedToBid": null,
+      "Approved": 0
+    }
+  },
+  "success": true
+}
+Sale cover image URL : https://repo.siegelauctions.com/<ImageURL>
+
+
+Lot api end point: https://api.siegelauctions.com/BackOffice/PowerSearch/Search?SaleNumber=<####>&LotNumber=<####>&IgnoreOtherCriteria=true 
+{
+  "message": "",
+  "data": {
+    "data": {
+      "Lot": [
+        {
+          "LotID": 451602,
+          "SaleID": 1343,
+          "LotNumber": "501",
+->          "LotNumericalPart": 501,
+          "SymbolID": 11,
+          "LotRecordID": 271621,
+          "RecordNumber": "368668",
+->          "LotDescriptionHTML": "<p><b>St. Augustine, British Florida to Norfolk Va., 1767.</b> Folded letter datelined <i>\"St. Augustine 20th April 1767\"</i> and addressed to Norfolk Va., <b>red</b> <b><i>\"Charles Town Ship 2ct Sterl.\"</i></b> <b>manuscript postmark,</b> sent via ship to Philadelphia where it received a bold strike of red <span class=\"sc\">\"PHILA/DELPHIA\"</span> two-line handstamp and red manuscript <i>\"Sh. 6\"</i> rate (4p plus 2p ship fee) applied for overland delivery to Norfolk, some minor soiling</p><p><span class=\"sc\">VERY FINE. THIS IS THE EARLIEST RECORDED COVER FROM FLORIDA SENT THROUGH THE MAILS AND WITH A POSTAL MARKING. A WONDERFUL EXHIBITION ITEM.</span></p><p>Ponce de Leon discovered Florida in 1513, and it was ceded by Spain to the British in 1763 in exchange for Havana, which the British captured in 1762. According to the <i>American Stampless Cover Catalog</i>, no covers are known from this first period. The earliest recorded letter from Florida was datelined \"Exiled Pensacola September 5, 1763\" but was carried privately and has no postal markings. The cover offered here is the earliest known used from Florida carried in the mails with a postmark.</p><p>Described in <i>American Stampless Cover Catalog</i> on p. 48. Ex Dr. Briggs</p>",
+          "SymbolName": "Cover - Single",
+          "SymbolText": "✉",
+->          "HeadLine": "St. Augustine, British Florida to Norfolk Va., 1767",
+->          "EstimateFrom": 10000,
+->          "EstimateTo": 15000,
+          "Certificate": null,
+          "CatalogTypeName": null,
+          "CatalogTypeID": null,
+->          "CategoryName": "Florida",
+->          "CatalogNumber": "St. Augustine",
+->          "CatalogValues": null,
+->          "SaleStartDate": "2023-06-27",
+->          "SaleEndDate": "2023-06-27",
+->          "SaleName": "2023 Rarities of the World",
+->          "LotFile": [
+            {
+              "FileID": 503957,
+              "Title": "501.jpg",
+              "IsPrimary": true,
+              "FileTypeID": 16,
+              "IsExample": false,
+              "Urls": [
+                {
+                  "LotFileImageID": 2260818,
+                  "Url": "old/2023/1289/501.jpg",
+                  "Level": 1
+                },
+                {
+                  "LotFileImageID": 2260819,
+                  "Url": "old/2023/1289/501.jpg",
+                  "Level": 2
+                },
+                {
+                  "LotFileImageID": 2260820,
+                  "Url": "old/2023/1289/501.jpg",
+                  "Level": 3
+                }
+              ]
+            }
+          ],
+          "PdfOfContent": null,
+->          "SaleNumber": "1289",
+          "SaleStatusType": "POST_SALE",
+          "SaleStatusTypeID": 4,
+->          "LotStatusType": "SOLD",
+          "LotStatusTypeID": 6,
+->          "Realized": 22000,
+          "HasRegistered": 0,
+          "Approved": 0
+        }
+      ],
+      "SearchCriteria": {
+->        "LotNumber": "501",
+->        "SaleNumber": "1289",
+        "SaleDateStart": null,
+        "SaleDateEnd": null,
+        "Expertizer": null,
+        "GradeGreaterEqual": null,
+        "CertificateGrade": null,
+        "MultipleTypeName": null,
+        "SymbolStateName": null,
+        "SymbolName": null,
+        "PriceRealizedFrom": null,
+        "PriceRealizedTo": null,
+        "Level1": null,
+        "Keyword": null,
+        "OtherKeyword": null,
+        "Area": null,
+        "SubArea": null,
+        "Region": null,
+        "Category": null,
+        "CatalogTypeName": null,
+        "CertificateYear": null,
+        "CatalogNumber": null
+      }
+    },
+    "length": {
+      "Lot": 1,
+      "SearchCriteria": 1
+    }
+  },
+  "success": true
+}
+
+-----------------------------------------------------------
+* EasternAuctions :
+----------------
+For Eastern Auctions, can you do a Sample for $100. I would pay $300 for a new version of the Scraper for Easter Auctions. 
+You can make separate programs for each auction company to keep it simple. On the Eastern, please try to see if you can determine the catalog number. 
+I will need the Country, Catalog Number, Description, Image, Sale Date, and Price Sold. If there is JSON to inspect that gives us other information, let me know.
+
